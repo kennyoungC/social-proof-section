@@ -7,8 +7,9 @@ body {
   font-family: "spartan", sans-serif;
   line-height: 1.6;
 }
+
 .container {
-  width: 1440px;
+  width: 900px;
   margin: 100px auto;
 }
 
@@ -19,23 +20,34 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+/* .header-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
 .grid {
   display: grid;
+  gap: 48px;
   margin-bottom: 32px;
 }
-.grid--2-cols {
-  grid-template-columns: 1fr 1fr;
+.main-header-box {
 }
+.header-box {
+}
+.grid--2-cols {
+  grid-template-columns: 52fr 48fr;
+}
+
 .rating-icon {
   height: 16px;
   width: 16px;
-  color: rgb(143, 8, 15);
+  color: orange;
 }
 .heading-primary {
   color: hsl(300, 43%, 22%);
   font-weight: 700;
   font-size: 38px;
-  width: 50%;
+  width: 80%;
   line-height: 1.1;
   margin-bottom: 12px;
 }
@@ -45,7 +57,7 @@ body {
 .header-text-box {
   color: hsl(303, 10%, 53%);
   font-size: 15px;
-  width: 50%;
+  width: 80%;
 }
 .rating-box {
   display: flex;
@@ -57,17 +69,59 @@ body {
 .rating-head-box {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-end;
   justify-content: center;
   gap: 12px;
 }
-.margin-left {
-  margin-left: 24px;
+.margin-right {
+  margin-right: 74px;
 }
-.margin-left-1 {
-  margin-left: 48px;
+.margin-right-1 {
+  margin-right: 48px;
 }
 .rating-text {
   font-size: 15px;
   color: hsl(300, 43%, 22%);
+}
+.image-box {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.img {
+  width: 48px;
+  border-radius: 50%;
+}
+.testimonial-box {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 96px;
+}
+.testimonials {
+  padding: 32px 18px;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 9px;
+}
+.testimonial-text-box {
+  font-size: 15px;
+  color: hsl(303, 10%, 53%);
+}
+/* .margin-top {
+  margin-top: 32px;
+} */
+.margin-top-1 {
+  margin-top: 24px;
+}
+.margin-top-2 {
+  margin-top: 48px;
+}
+.name {
+  color: hsl(0, 0%, 100%);
+  font-size: 18px;
+}
+.name-tag {
+  color: hsl(333, 80%, 67%);
 }
