@@ -16,9 +16,21 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  font-style: italic;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+.attribution a:link,
+.attribution a:visited {
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+.attribution a:hover,
+.attribution a:active {
+  text-decoration: underline;
+  font-weight: bolder;
 }
 /* .header-box {
   display: flex;
@@ -85,7 +97,7 @@ body {
 }
 .image-box {
   display: flex;
-  gap: 12px;
+  gap: 24px;
   align-items: center;
   margin-bottom: 24px;
 }
